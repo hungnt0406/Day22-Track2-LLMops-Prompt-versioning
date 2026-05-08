@@ -1,0 +1,14 @@
+{
+    "V1": {
+        "faithfulness": 0.975,
+        "answer_relevancy": 0.768182450450057,
+        "context_recall": 0.92,
+        "context_precision": 0.8799999999129998
+    },
+    "V2": {
+        "faithfulness": 0.9685714285714286,
+        "answer_relevancy": 0.6967497105685042,
+        "context_recall": 0.92,
+        "context_precision": 0.8799999999129998
+    }
+}

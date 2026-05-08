@@ -1,0 +1,23 @@
+# API Keys and Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Data / Temporary
+*.faiss
+*.pkl
+
+GEMINI.md

@@ -1,0 +1,13 @@
+
+--- 🛠️ JSON Formatter Demo ---
+[✅ VALID] Input: {"name": "Aetheria", "version": 2.4}
+         Output: {"name": "Aetheria", "version": 2.4}
+[🔧 REPAIRED] Input: ```json {"name": "Aetheria", "status": "online"} ```
+         Output: {"name": "Aetheria", "status": "online"}
+[🔧 REPAIRED] Input: {'name': 'Flux-Lang', 'type': 'DSL'}
+         Output: {"name": "Flux-Lang", "type": "DSL"}
+[🔧 REPAIRED] Input: {"items": [1, 2, 3,], "valid": false}
+         Output: {"items": [1, 2, 3], "valid": false}
+[❌ ERROR] Input: This is definitely not JSON at all.
+         Output: {"error": "Invalid JSON format", "raw": "This is definitely not JSON at all."}
+

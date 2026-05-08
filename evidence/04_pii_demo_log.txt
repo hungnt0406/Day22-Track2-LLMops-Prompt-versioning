@@ -1,0 +1,15 @@
+
+--- 🛡️ PII Detector Demo ---
+[✅ CLEAN] Input: Hello, my name is John Doe and I have no PII here.
+         Output: Hello, my name is John Doe and I have no PII here.
+[🚨 REDACTED] Input: Contact me at john.doe@example.com for details.
+         Output: Contact me at [REDACTED] for details.
+[🚨 REDACTED] Input: My phone number is 555-123-4567.
+         Output: My phone number is [REDACTED].
+[🚨 REDACTED] Input: Confidential SSN: 123-45-6789.
+         Output: Confidential SSN: [REDACTED].
+[🚨 REDACTED] Input: Payment card: 1234-5678-9012-3456.
+         Output: Payment card: [REDACTED].
+[🚨 REDACTED] Input: Combined: email me at secret@agent.com or call 111-222-3333.
+         Output: Combined: email me at [REDACTED] or call [REDACTED].
+
